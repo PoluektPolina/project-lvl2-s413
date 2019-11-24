@@ -14,9 +14,6 @@ env:
 # https://github.com/babel/babel-eslint
 parser: babel-eslint
 
-parserOptions:
-  sourceType: module
-
 extends:
   - 'airbnb-base'
   - 'plugin:jest/recommended'

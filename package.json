@@ -38,6 +38,7 @@
     "jest-cli": "^24.9.0"
   },
   "dependencies": {
-    "commander": "^4.0.1"
+    "commander": "^4.0.1",
+    "gendiff": "^1.0.0"
   }
 }
