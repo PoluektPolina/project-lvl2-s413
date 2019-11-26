@@ -1,4 +1,4 @@
-import genDiff from 'gendiff';
+import genDiff from '../src';
 
 const pathToFile1 = '../__tests__/__fixtures__/before.json';
 const pathToFile2 = '../__tests__/__fixtures__/after.json';
@@ -11,7 +11,7 @@ test('gendiff', () => {
     '- timeout': 50,
     '+ timeout': 20,
     '- proxy': '123.234.53.22',
-    '- follow': false
-  }
+    '- follow': false,
+  };
   expect(genDiff(pathToFile1, pathToFile2)).toEqual(result);
 });
